@@ -1,0 +1,17 @@
+Registro de usuarios:
+
+Rutas con acceso a hbs: 
+
+/ : Home page
+/registro: Registrar un nuevo usuario
+/login: Iniciar sesión
+/participantes: Lista de participantes
+/admin: Administración de usuarios, permite la entrada al login
+
+
+La aplicacion consiste en registro, login y actualizacion de datos de usuario previa validacion de este mediante el token, y administrador.
+
+  
+/* Por agregar:
+
+. Cerrar session del usuario

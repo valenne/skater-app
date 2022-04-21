@@ -1,0 +1,85 @@
+<body>
+  <h1>Skate Park</h1>
+
+  <div class="py-4">
+    <h2>Actualizar perfil</h2>
+    <hr class="w-50" />
+
+    <div>
+      <div class="form-group row w-50 m-auto">
+        <div class="form-group col-12 col-sm-6">
+          <label>Email</label>
+          <input
+            id="email"
+            type="email"
+            class="form-control m-auto"
+            name="email"
+            value="{{dataToverify.email}}"
+            disabled
+          />
+        </div>
+        <div class="form-group col-12 col-sm-6">
+          <label>Nombre</label>
+          <input
+            id="nombre"
+            type="text"
+            class="form-control m-auto"
+            name="nombre"
+            required
+          />
+        </div>
+        <div class="form-group col-12 col-sm-6">
+          <label>Password</label>
+          <input
+            id="password"
+            type="password"
+            name="password"
+            class="form-control m-auto"
+            value="123456"
+            required
+          />
+        </div>
+        <div class="form-group col-12 col-sm-6">
+          <label>Repita la password</label>
+          <input
+            id="passwordDos"
+            type="password"
+            name="passwordDos"
+            class="form-control m-auto"
+            value="123456"
+            required
+          />
+        </div>
+        <div class="form-group col-12 col-sm-6">
+          <label>Años de experiencia</label>
+          <input
+            id="experiencia"
+            type="number"
+            name="experiencia"
+            class="form-control m-auto"
+            required
+          />
+        </div>
+        <div class="form-group col-12 col-sm-6">
+          <label>Especialidad</label>
+          <input
+            id="especialidad"
+            type="text"
+            name="especialidad"
+            class="form-control m-auto"
+            required
+          />
+        </div>
+      </div>
+      <div class="mb-1">
+        <button class="btn btn-primary" id="btnUpdate">Presiona para actualizar</button>
+      </div>
+      <div>
+        <button class="btn btn-danger">Eliminar cuenta</button>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+<script src="/js/userUpdate.js"></script>
